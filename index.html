@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <title>Days since last accident counter ft. Fry</title>
+    </head>
+    <body>
+        <div id="main">
+            <video id="video-el" muted src="./fry-days-accident.mp4" type="video/mp4"></video>
+            <div id="buttons">
+                <button id="safe-btn" onclick="days()">A safe day</button>
+                <button id="accident-btn" onclick="accident()">ACCIDENT</button>
+            </div>
+            <p id="sign-nmbr">0</p>
+            <div id="accidents">
+                <p class="accident-p" id="streaks-str">Streaks without accidents: </p>
+                <br>
+                <p class="accident-p" id="total-str">Total days without accidents: </p>
+                <p class="accident-p" id="total-nmbr">0</p>
+            </div>
+            <script src="index.js"></script>
+        </div>
+    </body>
+</html>

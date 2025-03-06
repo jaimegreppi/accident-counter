@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Futurama;
+    src: url(fr-bold.ttf);
+}
+
+body {
+    background-color: #bfa63f;
+    text-align: center;
+    margin: 0;
+}
+
+#main {
+    max-width: 640px;
+    max-height: 480px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#video-el {
+    position: relative;
+}
+
+p {
+    display: inline;
+}
+
+#sign-nmbr {
+    visibility: hidden;
+    position: absolute;
+    top: 55px;
+    right: 414px;
+    height: 44px;
+    width: 40px;
+    background-color: #8c7b51;
+    border: 2px solid #59512e;
+    border-radius: 2px;
+    padding: 1px 1px 0px 1px;
+    font-family: Lato;
+    font-size: 40px;    
+    font-weight: 700;
+    color: #86eae3;    
+}
+
+#buttons {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 420px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 120px;
+    margin: 2px 10px 5px 10px;
+    border-radius: 50px;
+}
+
+#safe-btn {
+    background: darkgreen;
+}
+
+#safe-btn:disabled {
+    background: gray;
+}
+
+#accident-btn {
+    background: darkred;
+}
+
+#accident-btn:disabled {
+    background: gray;
+}
+
+#accidents {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 10px;
+    font-family: Futurama;
+    font-size: 18px;
+    color: whitesmoke;
+    text-shadow: 1px 1px #373816;
+}
+
+#streaks-str {
+    margin: 30px auto;
+    padding: 5px;
+}
+
+#total-str {
+    margin: 10px 1px;
+    padding: 5px 0;
+}
+
+#total-nmbr {
+    margin: 10px 0;
+    padding: 5px 0;    
+}
